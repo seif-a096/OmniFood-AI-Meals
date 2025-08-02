@@ -1,5 +1,9 @@
 "use strict";
 
+let nav = document.querySelector(".header");
+nav.addEventListener("click", function () {
+  nav.classList.toggle("nav-open");
+});
 let box = document.querySelectorAll(".how-img");
 
 for (let i = 0; i < box.length; i++) {
