@@ -241,8 +241,8 @@
   }
   .complete-plan::after {
     font-size: 1.3rem;
-    top: 8%;
-    right: -17%;
+    top: 4%;
+    right: -24%;
   }
   .hero {
     padding: 2.4rem 0 6.4rem 0;
