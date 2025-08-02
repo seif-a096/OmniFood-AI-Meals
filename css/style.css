@@ -730,6 +730,7 @@ footer {
   width: 4.8rem;
   color: #333;
 }
+/* select by name attribute */
 .icon-mobile-nav[name="close-outline"] {
   display: none;
 }

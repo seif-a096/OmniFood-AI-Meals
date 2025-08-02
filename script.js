@@ -6,6 +6,7 @@ let header = document.querySelector(".header");
 nav.addEventListener("click", function () {
   header.classList.toggle("nav-open");
 });
+
 let box = document.querySelectorAll(".how-img");
 
 for (let i = 0; i < box.length; i++) {
