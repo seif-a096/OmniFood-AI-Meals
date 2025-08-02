@@ -1,9 +1,9 @@
 "use strict";
 
 let nav = document.querySelector(".btn-mobile-nav");
-let header = 
-document.querySelector(".header");
-header.addEventListener("click", function () {
+let header = document.querySelector(".header");
+
+nav.addEventListener("click", function () {
   header.classList.toggle("nav-open");
 });
 let box = document.querySelectorAll(".how-img");
