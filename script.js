@@ -1,8 +1,10 @@
 "use strict";
 
-let nav = document.querySelector(".header");
+let nav = document.querySelector(".btn-mobile-nav");
+let header = 
+document.queryselector(".header");
 nav.addEventListener("click", function () {
-  nav.classList.toggle("nav-open");
+  header.classList.toggle("nav-open");
 });
 let box = document.querySelectorAll(".how-img");
 
