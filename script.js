@@ -49,3 +49,22 @@ for (let i = 0; i < box.length; i++) {
     box[i].style.transform = `rotateX(0deg) rotateY(0deg) translateZ(0px)`;
   });
 }
+let hero = document.querySelector(".hero");
+let obs = new IntersectionObserver(
+  function (entries) {
+    let ent = entries[0];
+    if (ent.isIntersecting) {
+      header.classList.toggle("fixed");
+      hero.style.marginTop = "0";
+    } else {
+      header.classList.add("fixed");
+      hero.style.marginTop = "9.6rem";
+    }
+  },
+  {
+    root: null,
+    threshold: 0.1,
+  }
+);
+
+obs.observe(hero);
